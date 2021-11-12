@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+
+/* :host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-drawer {
+    width: 350px;
+}
+
+mat-drawer-container {
+    height: 100%;
+} */
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-drawer {
+    width: 150px;
+}
+
+mat-drawer-container {
+    height: 100%;
+}
+
+mat-drawer-content {
+    padding: 10px;
+}
+
+.chart1 {
+    padding: 1cm;
+}
+
+footer {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+table {
+    width: 100%;
+}
+
+.example-card {
+    margin: 50px;
+    object-fit: cover;
+    /*this makes the image in src fit to the size specified below*/
+    width: 80%;
+    /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+}
+
+table {
+    width: 80%;
+    margin-left: 2cm;
+}
+
+.tableAPI {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 2cm;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.koutakisidebar {
+    text-align: center;
+}
+
+mat-nav-list {
+    text-align: center;
+}
+
+.userstableAPI {
+    margin: 2cm;
+    width: 80%;
+}
+
+.example-chip-list {
+    width: 100%;
+}
+
+.datatitle {
+    text-align: center;
+    background-color: beige;
+}
+
+.topUsers {
+    text-align: center;
+}
+
+.musts {
+    width: 80%;
+}
