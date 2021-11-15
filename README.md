@@ -1,6 +1,9 @@
 # Pinakas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+<br> 
+live demo of the app :
+https://gkolovos.github.io/pinakas/
 
 ## Development server
 
