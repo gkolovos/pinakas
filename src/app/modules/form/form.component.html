@@ -1,74 +1,7 @@
 <mat-divider></mat-divider>
 
 
-<!-- <div class="box">
-    <mat-form [formGroup]="userForm">
-        <div class="mt-5">
-            <div class="form-row">
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <mat-label> Name </mat-label>
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <input type="text" formControlName="name" class="form-control" placeholder="name">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <mat-label> username </mat-label>
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <input type="text" formControlName="username" class="form-control" placeholder="username">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <mat-label> email</mat-label>
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <input type="text" formControlName="email" class="form-control" placeholder="email">
-                        </div>
-                    </div>
-                </div>
 
-                <br>
-                <div class="form-row mt-4">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-primary" (click)="addItem()">Add</button>
-                        <button type="button" class="btn btn-primary" (click)="reset()">reset</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </mat-form>
-
-    <mat-divider></mat-divider>
-
-    <div class="col-md-8 mt-4 mb-4">
-        <table class="table-bordered">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Username</th>
-                    <th>Email No</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let item of listData">
-                    <td>{{item.name}}</td>
-                    <td>{{item.username}}</td>
-                    <td>{{item.email}}</td>
-                    <td><button type="button" class="btn btn-primary" (click)="removeItems(item)">Remove</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div> -->
 
 <form [formGroup]="userForm" class="form-container">
     <mat-card>
